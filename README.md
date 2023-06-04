@@ -13,4 +13,4 @@ As I expand this I will include directories for each tutorial containing the mod
 * [Introduction](00_intro.md)
 * [Simple weapon behavior](01_new_weapon_behavior.md)
 
-Any questions about this tutorial are best directed either to the Hard-Light Productions(HLP) [forum thread] (link pending) or the #scripting channel of the [HLP discord](https://discord.gg/QFdueKEYrN)
+Any questions about this tutorial are best directed either to the Hard-Light Productions(HLP) [forum thread](https://www.hard-light.net/forums/index.php?topic=98832) or the #scripting channel of the [HLP discord](https://discord.gg/QFdueKEYrN)
