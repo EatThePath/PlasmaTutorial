@@ -415,7 +415,7 @@ The approach used here is a bit crude, partly by design. Before closing out, let
 
 ```lua
 local function hook(self, core)
-  --Finally, a condition table. Ensures only gameplay runs this function when it applies.
+  --Now using a condition table to ensures the hook only runs for this specific weapon.
   core.add_hook(self, "tam_on_create", "On Weapon Created",
                     {
                       State = "GS_STATE_GAME_PLAY",

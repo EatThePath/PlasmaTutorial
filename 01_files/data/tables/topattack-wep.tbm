@@ -1,0 +1,132 @@
+#Secondary Weapons
+
+; ----------------------------------------------------------------------------------
+$Name: Stage1
+$Model File: Interceptor.pof
+$Mass: 15.0
+$Velocity: 250.0
+$Fire Wait: 2.0
+$Damage: 150
+$Detonation Radius: 500
+$Blast Force: 60.0
+$Inner Radius: 0.0
+$Outer Radius: 0.0
+$Shockwave Speed: 0
+$Armor Factor: 1.0
+$Shield Factor: 0.8
+$Subsystem Factor: 0.5
+$Lifetime: 5.0
+$Energy Consumed: 0.0
+$Cargo Size: 0.1
+$Homing: YES
+ +Type: ASPECT
+ +Turn Time: 1.0
+ +Min Lock Time: 2.0
+ +Lock Pixels/Sec: 70
+ +Catch-up Pixels/Sec: 100
+ +Catch-up Penalty: 30
+$LaunchSnd: 91
+$ImpactSnd: 88
+$FlyBySnd: -1
+$Rearm Rate: 2.0
+$Flags: ( "player allowed" "smart spawn" "spawn stage2,1" "no lifeleft penalty" )
+$Trail:
+ +Start Width: 0.25
+ +End Width: 0.5
+ +Start Alpha: 1.0
+ +End Alpha: 0.0
+ +Max Life: 0.7
+ +Bitmap: MissileTrail02
+$Icon: icon_interceptor
+$Anim: interceptor
+$Impact Explosion: ExpMissileHit1
+$Impact Explosion Radius: 7.0
+$Spawn Angle: 0.0001
+
+; ----------------------------------------------------------------------------------
+$Name: Stage2
+$Model File: Interceptor.pof
+$Mass: 15.0
+$Velocity: 250.0
+$Fire Wait: 2.0
+$Damage: 150
+$Detonation Range: 400
+$Blast Force: 60.0
+$Inner Radius: 0.0
+$Outer Radius: 0.0
+$Shockwave Speed: 0
+$Armor Factor: 1.0
+$Shield Factor: 0.8
+$Subsystem Factor: 0.5
+$Lifetime: 5.0
+$Energy Consumed: 0.0
+$Cargo Size: 4.0
+$Homing: YES
+ +Type: ASPECT
+ +Turn Time: 0.01
+ +View Cone: 360
+ +Min Lock Time: 2.0
+ +Lock Pixels/Sec: 70
+ +Catch-up Pixels/Sec: 100
+ +Catch-up Penalty: 30
+$LaunchSnd: 91
+$ImpactSnd: 88
+$FlyBySnd: -1
+$Rearm Rate: 2.0
+$Flags: ( "spawn stage3,1" "no lifeleft penalty" "inherit parent target" "child" )
+$Trail:
+ +Start Width: 10.25
+ +End Width: 0.5
+ +Start Alpha: 1.0
+ +End Alpha: 0.0
+ +Max Life: 10.7
+ +Bitmap: MissileTrail02
+$Icon: icon_interceptor
+$Anim: interceptor
+$Impact Explosion: ExpMissileHit1
+$Impact Explosion Radius: 7.0
+$Spawn Angle: 0.0001
+
+; ----------------------------------------------------------------------------------
+$Name: Stage3
+$Model File: Interceptor.pof
+$Mass: 15.0
+$Velocity: 250.0
+$Fire Wait: 2.0
+$Damage: 150
+$Blast Force: 60.0
+$Inner Radius: 0.0
+$Outer Radius: 0.0
+$Shockwave Speed: 0
+$Armor Factor: 1.0
+$Shield Factor: 0.8
+$Subsystem Factor: 0.5
+$Lifetime: 5.0
+$Energy Consumed: 0.0
+$Cargo Size: 4.0
+$Homing: YES
+ +Type: ASPECT
+ +Turn Time: 0.1
+ +View Cone: 360
+ +Min Lock Time: 2.0
+ +Lock Pixels/Sec: 70
+ +Catch-up Pixels/Sec: 100
+ +Catch-up Penalty: 30
+$LaunchSnd: 91
+$ImpactSnd: 88
+$FlyBySnd: -1
+$Rearm Rate: 2.0
+$Flags: ( "player allowed" "no lifeleft penalty" "inherit parent target" "child")
+$Trail:
+ +Start Width: 10.25
+ +End Width: 0.5
+ +Start Alpha: 1.0
+ +End Alpha: 0.0
+ +Max Life: 10.7
+ +Bitmap: MissileTrail02
+$Icon: icon_interceptor
+$Anim: interceptor
+$Impact Explosion: ExpMissileHit1
+$Impact Explosion Radius: 7.0
+
+#end

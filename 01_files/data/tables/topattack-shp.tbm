@@ -1,0 +1,7 @@
+
+#Ship Classes
+$Name:                          GTF Erinyes
+$Allowed SBanks:				( "Stage1" "Rockeye"  "Tempest" "Harpoon" "Trebuchet" "Infyrno" "Hornet" "Tornado" "Hornet#Weak" "EMP Adv." "TAG-A" "TAG-B" )
+$Allowed Dogfight SBanks:				( "Harpoon D" "Tornado D" )
+$Default SBanks:				( "Stage1" "Stage1"  )
+#end
